@@ -148,3 +148,10 @@ nnoremap <silent> <leader>l :call SyntasticCheckCoffeescript()<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Key Mapping
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+map <F2> i#!/bin/bash <ESC>
+map <F3> o#This file was created on <ESC>:r!date "+\%x"<ESC>kJ
