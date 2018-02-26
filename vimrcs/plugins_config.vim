@@ -155,3 +155,4 @@ nnoremap <silent> <leader>d :GitGutterToggle<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <F2> i#!/bin/bash <ESC>
 map <F3> o#This file was created on <ESC>:r!date "+\%x"<ESC>kJ
+map <F4> i#include <stdio.h><CR><CR>int main(int argc, char* argv[]){<CR>return 0;<cr>}<ESC>:-2<ESC>o
