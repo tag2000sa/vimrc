@@ -41,10 +41,11 @@ else
 endif
 
 " Cursor / CursorLine / CursorColumn
-set cursorline cursorcolumn
-highlight LineNR cterm=bold ctermbg=black ctermfg=gray "gui=NONE guibg=black guifg=gray
-highlight CursorLine cterm=bold ctermbg=darkcyan "gui=bold guibg=darkcyan
-highlight CursorLineNR cterm=bold ctermbg=darkred ctermfg=yellow "gui=bold guibg=darkred guifg=yellow
+set cursorline 
+highlight Cursor guibg=red
+highlight LineNR cterm=NONE ctermfg=gray "gui=NONE guifg=gray
+"highlight CursorLine cterm=bold ctermbg=darkgray "gui=bold guibg=darkgray
+highlight CursorLineNR cterm=NONE ctermbg=darkred ctermfg=yellow "gui=bold guibg=darkred guifg=yellow
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
