@@ -14,7 +14,7 @@ if has("mac") || has("macunix")
 elseif has("win16") || has("win32")
     set gfn=Hack:h14,Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
 elseif has("linux")
-    set gfn=Hack:h14,Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
+    set gfn=Hack:h14,Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h15
 elseif has("unix")
     set gfn=Monospace\ 11
 endif
@@ -40,6 +40,11 @@ else
     let g:colors_name="desert"
 endif
 
+" Cursor / CursorLine / CursorColumn
+set cursorline cursorcolumn
+highlight LineNR cterm=bold ctermbg=black ctermfg=gray "gui=NONE guibg=black guifg=gray
+highlight CursorLine cterm=bold ctermbg=darkcyan "gui=bold guibg=darkcyan
+highlight CursorLineNR cterm=bold ctermbg=darkred ctermfg=yellow "gui=bold guibg=darkred guifg=yellow
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
