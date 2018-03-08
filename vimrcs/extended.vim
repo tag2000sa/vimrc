@@ -14,9 +14,9 @@ if has("mac") || has("macunix")
 elseif has("win16") || has("win32")
     set gfn=Hack:h14,Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
 elseif has("linux")
-    set gfn=Hack:h14,Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h15
+    set gfn=Hack:h14,Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
 elseif has("unix")
-    set gfn=Monospace\ 11
+    set gfn=Monospace\ 12
 endif
 
 " Open MacVim in fullscreen mode
@@ -44,7 +44,7 @@ endif
 set cursorline 
 highlight Cursor guibg=red
 highlight LineNR cterm=NONE ctermfg=gray "gui=NONE guifg=gray
-"highlight CursorLine cterm=bold ctermbg=darkgray "gui=bold guibg=darkgray
+highlight CursorLine cterm=bold ctermbg=darkgray "gui=bold guibg=darkgray
 highlight CursorLineNR cterm=NONE ctermbg=darkred ctermfg=yellow "gui=bold guibg=darkred guifg=yellow
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
