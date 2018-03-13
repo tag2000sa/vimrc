@@ -44,7 +44,7 @@ endif
 set cursorline 
 highlight Cursor guibg=red
 highlight LineNR cterm=NONE ctermfg=gray "gui=NONE guifg=gray
-highlight CursorLine cterm=bold ctermbg=darkgray "gui=bold guibg=darkgray
+highlight CursorLine cterm=bold ctermbg=darkgray ctearmfg=white "gui=bold guibg=darkgray
 highlight CursorLineNR cterm=NONE ctermbg=darkred ctermfg=yellow "gui=bold guibg=darkred guifg=yellow
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
