@@ -43,8 +43,8 @@ endif
 " Cursor / CursorLine / CursorColumn
 set cursorline 
 highlight Cursor guibg=red
-highlight LineNR cterm=NONE ctermfg=gray "gui=NONE guifg=gray
-highlight CursorLine cterm=bold ctermbg=darkgray "gui=bold guibg=darkgray
+highlight LineNR cterm=NONE ctermbg=darkblue ctermfg=lightblue "gui=NONE guifg=gray
+highlight CursorLine cterm=bold ctermbg=darkgray ctermfg=white "gui=bold guibg=darkgray guifg=white
 highlight CursorLineNR cterm=NONE ctermbg=darkred ctermfg=yellow "gui=bold guibg=darkred guifg=yellow
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -110,7 +110,8 @@ inoremap $4 {<esc>o}<esc>O
 inoremap $q ''<esc>i
 inoremap $e ""<esc>i
 inoremap $t <><esc>i
-
+inoremap $p printf("");<esc>hh<esc>i
+inoremap $// /*<cr>*/ <esc>O<tab>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General abbreviations
