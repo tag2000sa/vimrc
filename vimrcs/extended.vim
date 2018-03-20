@@ -112,7 +112,7 @@ inoremap $e ""<esc>i
 inoremap $t <><esc>i
 inoremap $p printf("");<esc>hh<esc>i
 inoremap $// /*<cr>*/ <esc>O<tab>
-
+inoremap <S-Tab> <esc>la 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General abbreviations
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
