@@ -103,16 +103,16 @@ vnoremap $q <esc>`>a'<esc>`<i'<esc>
 vnoremap $e <esc>`>a"<esc>`<i"<esc>
 
 " Map auto complete of (, ", ', [
-inoremap $1 ()<esc>i
-inoremap $2 []<esc>i
-inoremap $3 {}<esc>i
-inoremap $4 {<esc>o}<esc>O
-inoremap $q ''<esc>i
-inoremap $e ""<esc>i
-inoremap $t <><esc>i
-inoremap $p printf("");<esc>hh<esc>i
-inoremap $// /*<cr>*/ <esc>O<tab>
-inoremap <S-Tab> <esc>la 
+inoremap ( ()<esc>i
+inoremap [ []<esc>i
+inoremap { {}<esc>i
+inoremap $1 <cr><cr><esc>ka
+inoremap ' ''<esc>i
+inoremap " ""<esc>i
+inoremap < <><esc>i
+inoremap printf printf("");<esc>hh<esc>i
+inoremap /* /*<cr>*/ <esc>O<tab>
+inoremap <S-Tab> <esc>la
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General abbreviations
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
