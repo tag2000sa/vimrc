@@ -67,9 +67,9 @@ endtry
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => standard code file Map .c .sh
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-imap shsc  #!/bin/bash<esc>o<cr># This file created on xdate<cr># Author:<cr># Email:<cr># Subject:<cr><esc>o
+imap shsc  #!/bin/bash<esc>o<cr># Date: xdate<cr># Author:<cr># Email:<cr># Subject:<cr><esc>o
 
-imap cprog #include <stdio.h<esc>o<cr>/*This file created on xdate<cr>Author:<cr>Email:<cr>Subject:<cr><esc>jo<cr><cr>int main(int argc, char* argv[<S-Tab><S-Tab>{<Tab><cr><cr><Tab>return 0;<cr><esc>kki
+imap cprog #include <stdio.h<esc>o<cr>/*Date: xdate<cr>Author:<cr>Email:<cr>Subject:<cr><esc>jo<cr><cr>int main(int argc, char* argv[<S-Tab><S-Tab>{<Tab><cr><cr><Tab>return 0;<cr><esc>kki
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Command mode related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -121,7 +121,7 @@ inoremap <S-Tab> <esc>la
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General abbreviations
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-iab xdate <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
+iab xdate <c-r>=strftime("%A %d/%m/%y %H:%M")<cr>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
