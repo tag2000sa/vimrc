@@ -154,7 +154,7 @@ nnoremap <silent> <leader>d :GitGutterToggle<cr>
 " => Key Mapping
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <F2> i#!/bin/bash <CR>#This file was created on <ESC>:r!date "+\%x"<CR><ESC>kJ
-map <F3> i#include <stdio.h><CR><CR>/*<CR>This file was created on <ESC>:r!date "+\%x"<ESC>kJ<ESC>oAuthor:<ESC>oSubject:<CR><CR>*/<CR><CR>int main(int argc, char* argv[]){<CR>return 0;<cr>}<ESC>:-2<ESC>o
+map <F3> i#include <stdio.h<S-TAB><CR><CR>/*<CR>This file was created on <ESC>:r!date "+\%x"<ESC>kJ<ESC>oAuthor: <ESC>oSubject:<CR><ESC>jo<CR><CR>int main(int argc, char* argv[<S-TAB><S-TAB>{<CR><CR>return 0;<CR><ESC>kkO
 map <F4> :2<ESC>O#include <><ESC><C-R><ESC> 
 map <F5> :2<ESC>O#include ""<ESC><C-R><ESC>
 map <F6> i<!DOCTYPE html><CR><html><CR><head><CR><meta charset="UTF-8"><CR><title>TITLE</title><CR></head><CR><body><CR></body><CR></html><ESC>:-2<ESC>o<TAB>
