@@ -155,8 +155,8 @@ nnoremap <silent> <leader>d :GitGutterToggle<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let author="Turky Abdulaziz Saderaldin"
 let class=202002
-map <F2> i#!/bin/bash <CR>#This file was created on <ESC>:r!date "+\%x"<CR><ESC>kJo# Signature: <C-R>=class<CR>.ORIGINAL<CR># Author: <C-R>=author<CR><CR># Subject: <CR><CR>
-map <F3> i#include <stdio.h<S-TAB><CR><CR>/*<CR>This file was created on <ESC>:r!date "+\%x"<ESC>kJ<ESC>oSignature: <C-R>=class<CR>.ORIGINAL<CR>Author: <C-R>=author<CR><CR>Subject: <CR><ESC>jo<CR><CR>int main(int argc, char* argv[<S-TAB><S-TAB>{<CR><CR>return 0;<CR><ESC>kkO
+map <F2> i#!/bin/bash <CR><CR># File-Name: <C-R>=expand("%:t")<CR><CR># This file was created on <ESC>:r!date "+\%x"<CR><ESC>kJo# Signature: <C-R>=class<CR>.ORIGINAL<CR># Author: <C-R>=author<CR><CR># Subject: <CR><CR>
+map <F3> i#include <stdio.h<S-TAB><CR><CR>/*File-Name: <C-R>=expand("%:t")<CR><CR>This file was created on <ESC>:r!date "+\%x"<ESC>kJ<ESC>oSignature: <C-R>=class<CR>.ORIGINAL<CR>Author: <C-R>=author<CR><CR>Subject: <CR><ESC>jo<CR><CR>int main(int argc, char* argv[<S-TAB><S-TAB>{<CR><CR>return 0;<CR><ESC>kkO
 map <F4> :2<ESC>O#include <><ESC><C-R><ESC> 
 map <F5> :2<ESC>O#include ""<ESC><C-R><ESC>
 map <F6> i<!DOCTYPE html><CR><html><CR><head><CR><meta charset="UTF-8"><CR><title>TITLE</title><CR></head><CR><body><CR></body><CR></html><ESC>:-2<ESC>o<TAB>
