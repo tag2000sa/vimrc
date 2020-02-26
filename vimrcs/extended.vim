@@ -113,7 +113,6 @@ vnoremap $e <esc>`>a"<esc>`<i"<esc>
 inoremap ( ()<esc>i
 inoremap [ []<esc>i
 inoremap { {}<esc>i
-inoremap $1 <cr><cr><esc>ka
 inoremap ' ''<esc>i
 inoremap " ""<esc>i
 inoremap < <><esc>i
