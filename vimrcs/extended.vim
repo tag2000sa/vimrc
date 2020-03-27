@@ -71,7 +71,7 @@ imap shs  #!/bin/bash<esc>o<cr># Date: xdate<cr># Author:<cr># Email:<cr># Subje
 
 imap cprog #include <stdio.h<esc>o<cr>/*Date: xdate<cr>Author:<cr>Email:<cr>Subject:<cr><esc>jo<cr><cr>int main(int argc, char* argv[<S-Tab><S-Tab>{<Tab><cr><cr><Tab>return 0;<cr><esc>kki
 
-imap ts xtimestamp<cr>
+" imap ts xtimestamp<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Command mode related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
