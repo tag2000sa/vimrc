@@ -161,3 +161,5 @@ map <F4> i//import <package-name<S-TAB>.<class-name<S-TAB><CR><BS><BS><CR>/* <ES
 map <F5> i<CR>class <C-R>=expand("%:t:r") <CR><CR>{<CR><C-R><S-TAB><ESC>ko//Instance Variables<CR>private <data-type<S-TAB> <variable-name<S-TAB>;<ESC>o<BS><BS><CR>//Methods<CR>public void <method-name<S-TAB><CR>{<CR><S-TAB>
 map <F6> i<!DOCTYPE html><CR><html><CR><head><CR><meta charset="UTF-8"><CR><title>TITLE</title><CR></head><CR><body><CR></body><CR></html><ESC>:-2<ESC>o<TAB>
 map <F7> i<?php<CR>?><ESC>O<TAB>
+map <F12> :setlocal spell! spelllang=en_us<CR>
+
