@@ -1,4 +1,4 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"endfunc""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Important: 
 "       This requries that you install https://github.com/amix/vimrc !
 "
@@ -98,16 +98,21 @@ map ½ $
 cmap ½ $
 imap ½ $
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Parenthesis/bracket
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-vnoremap $1 <esc>`>a)<esc>`<i(<esc>
-vnoremap $2 <esc>`>a]<esc>`<i[<esc>
-vnoremap $3 <esc>`>a}<esc>`<i{<esc>
-vnoremap $$ <esc>`>a"<esc>`<i"<esc>
-vnoremap $q <esc>`>a'<esc>`<i'<esc>
-vnoremap $e <esc>`>a"<esc>`<i"<esc>
+" Insert
+vnoremap $( <esc>`>a)<esc>`<i(<esc>
+vnoremap $[ <esc>`>a]<esc>`<i[<esc>
+vnoremap ${ <esc>`>a}<esc>`<i{<esc>
+vnoremap $" <esc>`>a"<esc>`<i"<esc>
+vnoremap $' <esc>`>a'<esc>`<i'<esc>
+" Remove
+vnoremap #( <esc>di(va(p
+vnoremap #[ <esc>di[va[p
+vnoremap #{ <esc>di{va{p
+vnoremap #" <esc>di"va"p
+vnoremap #' <esc>di'va'p
 
 " Map auto complete of (, ", ', [
 inoremap ( ()<esc>i

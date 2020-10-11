@@ -432,3 +432,6 @@ function! <SID>BufcloseCloseIt()
      execute("bdelete! ".l:currentBufNum)
    endif
 endfunction
+autocmd TextChanged,TextChangedI *.txt write
+autocmd TextChanged,TextChangedI *.sh write
+autocmd TextChanged,TextChangedI *.c write
