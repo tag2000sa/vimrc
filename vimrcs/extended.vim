@@ -124,7 +124,7 @@ inoremap < <><esc>i
 inoremap printf printf("");<esc>hh<esc>i
 inoremap scanf scanf("");<esc>hh<esc>i
 inoremap /* /*<cr>*/ <esc>O<tab>
-inoremap <S-Tab> <esc>la
+inoremap <M-Tab> <esc>la
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General abbreviations
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
